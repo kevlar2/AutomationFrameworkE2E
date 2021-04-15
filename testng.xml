@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.rockSolicitors.testListeners.Listeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="RockSolicitorsE2E">
+        <classes>
+            <class name="com.rockSolicitors.obsoleteTest.HomePageTest">
+                <methods>
+                    <include name="recommendUsTest"/>
+                    <include name="makeAnEnquiryTest"/>
+                    <include name="viewPriceListTest"/>
+                    <include name="provideInformationTest"/>
+                    <include name="makePaymentTest"/>
+                    <include name="readYourDocumentTest"/>
+                    <include name="bookAnAppointment"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

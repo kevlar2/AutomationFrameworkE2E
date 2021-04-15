@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite (Structured Test)">
+    <listeners>
+        <listener class-name="com.rockSolicitors.testListeners.Listeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="RockSolicitorsE2E(Structured Test)" thread-count="6">
+        <classes>
+            <class name="com.rockSolicitors.tests.RecommendUsTest">
+                <methods>
+                    <include name="validateButtonsOnReferToAFriendPage"/>
+                    <include name="validateMessagePreview"/>
+                    <include name="validateYourFriendDetailsWarnings"/>
+                    <include name="validateYourDetailsWarnings"/>
+                </methods>
+            </class>
+            <class name="com.rockSolicitors.tests.MakeAnEnquiryTest">
+
+            </class>
+            <class name="com.rockSolicitors.tests.ViewPriceListTest">
+
+            </class>
+            <class name="com.rockSolicitors.tests.ProvideInformationTest">
+
+            </class>
+            <class name="com.rockSolicitors.tests.MakePaymentTest">
+
+            </class>
+            <class name="com.rockSolicitors.tests.ReadYourDocumentTest">
+
+            </class>
+            <class name="com.rockSolicitors.tests.BookAnAppointmentTest">
+
+            </class>
+        </classes>
+    </test>
+</suite>

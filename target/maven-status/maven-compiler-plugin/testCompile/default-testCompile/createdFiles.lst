@@ -1,0 +1,10 @@
+com\rockSolicitors\tests\MakeAnEnquiryTest.class
+com\rockSolicitors\tests\BaseTest.class
+com\rockSolicitors\obsoleteTest\HomePageTest.class
+com\rockSolicitors\testListeners\Listeners.class
+com\rockSolicitors\tests\RecommendUsTest.class
+com\rockSolicitors\tests\MakePaymentTest.class
+com\rockSolicitors\tests\ProvideInformationTest.class
+com\rockSolicitors\tests\ReadYourDocumentTest.class
+com\rockSolicitors\tests\BookAnAppointmentTest.class
+com\rockSolicitors\tests\ViewPriceListTest.class
