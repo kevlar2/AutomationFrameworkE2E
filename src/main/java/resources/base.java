@@ -37,10 +37,10 @@ public class base {
         prop.load(fips);
 
         // To allow maven set the browser to be used via maven/ Jenkins(mvn test -Dbrowser=chrome)
-        String browserName = System.getProperty("browser");
+        //String browserName = System.getProperty("browser");
 
         // Enables you to choose browser, depending on request or choice form data.properties file.
-        // String browserName = prop.getProperty("browser");
+        String browserName = prop.getProperty("browser");
 
         switch (browserName){
             case "chrome":

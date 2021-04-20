@@ -1,145 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite (Structured Test)" duration-ms="86794" started-at="2021-04-14T17:57:29 BST" finished-at="2021-04-14T17:58:56 BST">
+  <suite started-at="2021-04-20T09:14:44 BST" name="Surefire suite" finished-at="2021-04-20T09:15:03 BST" duration-ms="19453">
     <groups>
     </groups>
-    <test name="RockSolicitorsE2E(Structured Test)" duration-ms="86794" started-at="2021-04-14T17:57:29 BST" finished-at="2021-04-14T17:58:56 BST">
-      <class name="com.rockSolicitors.tests.ProvideInformationTest">
-        <test-method status="PASS" signature="startUp()[pri:0, instance:com.rockSolicitors.tests.ProvideInformationTest@1838ccb8]" name="startUp" is-config="true" duration-ms="16046" started-at="2021-04-14T17:57:29 BST" finished-at="2021-04-14T17:57:45 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="validateOnboardFormsUrl()[pri:0, instance:com.rockSolicitors.tests.ProvideInformationTest@1838ccb8]" name="validateOnboardFormsUrl" duration-ms="69067" started-at="2021-04-14T17:57:45 BST" finished-at="2021-04-14T17:58:54 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateOnboardFormsUrl -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rockSolicitors.tests.ProvideInformationTest@1838ccb8]" name="tearDown" is-config="true" duration-ms="1653" started-at="2021-04-14T17:58:54 BST" finished-at="2021-04-14T17:58:56 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.rockSolicitors.tests.ProvideInformationTest -->
-      <class name="com.rockSolicitors.tests.ReadYourDocumentTest">
-        <test-method status="PASS" signature="startUp()[pri:0, instance:com.rockSolicitors.tests.ReadYourDocumentTest@7d9e8ef7]" name="startUp" is-config="true" duration-ms="6905" started-at="2021-04-14T17:57:55 BST" finished-at="2021-04-14T17:58:02 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="validateReadYourDocumentPageUrl()[pri:0, instance:com.rockSolicitors.tests.ReadYourDocumentTest@7d9e8ef7]" name="validateReadYourDocumentPageUrl" duration-ms="7657" started-at="2021-04-14T17:58:02 BST" finished-at="2021-04-14T17:58:09 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateReadYourDocumentPageUrl -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rockSolicitors.tests.ReadYourDocumentTest@7d9e8ef7]" name="tearDown" is-config="true" duration-ms="1600" started-at="2021-04-14T17:58:09 BST" finished-at="2021-04-14T17:58:11 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.rockSolicitors.tests.ReadYourDocumentTest -->
+    <test started-at="2021-04-20T09:14:44 BST" name="Surefire test" finished-at="2021-04-20T09:15:03 BST" duration-ms="19453">
       <class name="com.rockSolicitors.tests.MakeAnEnquiryTest">
-        <test-method status="PASS" signature="startUp()[pri:0, instance:com.rockSolicitors.tests.MakeAnEnquiryTest@2d778add]" name="startUp" is-config="true" duration-ms="16134" started-at="2021-04-14T17:57:29 BST" finished-at="2021-04-14T17:57:45 BST">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:com.rockSolicitors.tests.MakeAnEnquiryTest@27216cd]" started-at="2021-04-20T09:14:44 BST" name="startUp" finished-at="2021-04-20T09:14:52 BST" duration-ms="8142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="validateMakeEnquiryForm()[pri:0, instance:com.rockSolicitors.tests.MakeAnEnquiryTest@2d778add]" name="validateMakeEnquiryForm" duration-ms="4149" started-at="2021-04-14T17:57:45 BST" finished-at="2021-04-14T17:57:49 BST">
+        <test-method signature="validateMakeEnquiryForm()[pri:0, instance:com.rockSolicitors.tests.MakeAnEnquiryTest@27216cd]" started-at="2021-04-20T09:14:52 BST" name="validateMakeEnquiryForm" finished-at="2021-04-20T09:14:55 BST" duration-ms="2884" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateMakeEnquiryForm -->
-        <test-method status="PASS" signature="validateMakeEnquiryFormFields()[pri:1, instance:com.rockSolicitors.tests.MakeAnEnquiryTest@2d778add]" name="validateMakeEnquiryFormFields" duration-ms="9745" started-at="2021-04-14T17:57:50 BST" finished-at="2021-04-14T17:57:59 BST">
+        <test-method signature="validateMakeEnquiryFormFields()[pri:1, instance:com.rockSolicitors.tests.MakeAnEnquiryTest@27216cd]" started-at="2021-04-20T09:14:55 BST" name="validateMakeEnquiryFormFields" finished-at="2021-04-20T09:15:02 BST" duration-ms="7389" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateMakeEnquiryFormFields -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rockSolicitors.tests.MakeAnEnquiryTest@2d778add]" name="tearDown" is-config="true" duration-ms="2424" started-at="2021-04-14T17:57:59 BST" finished-at="2021-04-14T17:58:02 BST">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rockSolicitors.tests.MakeAnEnquiryTest@27216cd]" started-at="2021-04-20T09:15:02 BST" name="tearDown" finished-at="2021-04-20T09:15:03 BST" duration-ms="978" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.rockSolicitors.tests.MakeAnEnquiryTest -->
-      <class name="com.rockSolicitors.tests.MakePaymentTest">
-        <test-method status="PASS" signature="startUp()[pri:0, instance:com.rockSolicitors.tests.MakePaymentTest@6c2ed0cd]" name="startUp" is-config="true" duration-ms="18408" started-at="2021-04-14T17:57:29 BST" finished-at="2021-04-14T17:57:48 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="validatePageUrl()[pri:0, instance:com.rockSolicitors.tests.MakePaymentTest@6c2ed0cd]" name="validatePageUrl" duration-ms="4599" started-at="2021-04-14T17:57:48 BST" finished-at="2021-04-14T17:57:52 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validatePageUrl -->
-        <test-method status="PASS" signature="validatePageTitle()[pri:1, instance:com.rockSolicitors.tests.MakePaymentTest@6c2ed0cd]" name="validatePageTitle" duration-ms="1" started-at="2021-04-14T17:57:52 BST" finished-at="2021-04-14T17:57:52 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validatePageTitle -->
-        <test-method status="PASS" signature="validateReferenceNumberField()[pri:2, instance:com.rockSolicitors.tests.MakePaymentTest@6c2ed0cd]" name="validateReferenceNumberField" duration-ms="1" started-at="2021-04-14T17:57:52 BST" finished-at="2021-04-14T17:57:52 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateReferenceNumberField -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rockSolicitors.tests.MakePaymentTest@6c2ed0cd]" name="tearDown" is-config="true" duration-ms="2444" started-at="2021-04-14T17:57:52 BST" finished-at="2021-04-14T17:57:55 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.rockSolicitors.tests.MakePaymentTest -->
-      <class name="com.rockSolicitors.tests.RecommendUsTest">
-        <test-method status="PASS" signature="startUp()[pri:0, instance:com.rockSolicitors.tests.RecommendUsTest@20ca951f]" name="startUp" is-config="true" duration-ms="14222" started-at="2021-04-14T17:57:29 BST" finished-at="2021-04-14T17:57:43 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="validateButtonsOnReferToAFriendPage()[pri:0, instance:com.rockSolicitors.tests.RecommendUsTest@20ca951f]" name="validateButtonsOnReferToAFriendPage" duration-ms="17852" started-at="2021-04-14T17:57:43 BST" finished-at="2021-04-14T17:58:01 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateButtonsOnReferToAFriendPage -->
-        <test-method status="PASS" signature="validateMessagePreview()[pri:1, instance:com.rockSolicitors.tests.RecommendUsTest@20ca951f]" name="validateMessagePreview" duration-ms="3827" started-at="2021-04-14T17:58:01 BST" finished-at="2021-04-14T17:58:05 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateMessagePreview -->
-        <test-method status="PASS" signature="validateYourFriendDetailsWarnings()[pri:2, instance:com.rockSolicitors.tests.RecommendUsTest@20ca951f]" name="validateYourFriendDetailsWarnings" duration-ms="11821" started-at="2021-04-14T17:58:05 BST" finished-at="2021-04-14T17:58:17 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateYourFriendDetailsWarnings -->
-        <test-method status="PASS" signature="validateYourDetailsWarnings()[pri:3, instance:com.rockSolicitors.tests.RecommendUsTest@20ca951f]" name="validateYourDetailsWarnings" duration-ms="5619" started-at="2021-04-14T17:58:17 BST" finished-at="2021-04-14T17:58:23 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateYourDetailsWarnings -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rockSolicitors.tests.RecommendUsTest@20ca951f]" name="tearDown" is-config="true" duration-ms="1518" started-at="2021-04-14T17:58:23 BST" finished-at="2021-04-14T17:58:24 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.rockSolicitors.tests.RecommendUsTest -->
-      <class name="com.rockSolicitors.tests.BookAnAppointmentTest">
-        <test-method status="PASS" signature="startUp()[pri:0, instance:com.rockSolicitors.tests.BookAnAppointmentTest@f107c50]" name="startUp" is-config="true" duration-ms="16066" started-at="2021-04-14T17:57:29 BST" finished-at="2021-04-14T17:57:45 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="validateBookAnAppointmentPageUrl()[pri:0, instance:com.rockSolicitors.tests.BookAnAppointmentTest@f107c50]" name="validateBookAnAppointmentPageUrl" duration-ms="8985" started-at="2021-04-14T17:57:45 BST" finished-at="2021-04-14T17:57:54 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateBookAnAppointmentPageUrl -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rockSolicitors.tests.BookAnAppointmentTest@f107c50]" name="tearDown" is-config="true" duration-ms="1628" started-at="2021-04-14T17:57:54 BST" finished-at="2021-04-14T17:57:56 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.rockSolicitors.tests.BookAnAppointmentTest -->
-      <class name="com.rockSolicitors.tests.ViewPriceListTest">
-        <test-method status="PASS" signature="startUp()[pri:0, instance:com.rockSolicitors.tests.ViewPriceListTest@73302995]" name="startUp" is-config="true" duration-ms="15529" started-at="2021-04-14T17:57:29 BST" finished-at="2021-04-14T17:57:45 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="validatePriceListPage()[pri:0, instance:com.rockSolicitors.tests.ViewPriceListTest@73302995]" name="validatePriceListPage" duration-ms="12780" started-at="2021-04-14T17:57:45 BST" finished-at="2021-04-14T17:57:58 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validatePriceListPage -->
-        <test-method status="PASS" signature="validateWillsPowerOfAttorneyWillsPage()[pri:1, instance:com.rockSolicitors.tests.ViewPriceListTest@73302995]" name="validateWillsPowerOfAttorneyWillsPage" duration-ms="2369" started-at="2021-04-14T17:57:58 BST" finished-at="2021-04-14T17:58:00 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateWillsPowerOfAttorneyWillsPage -->
-        <test-method status="PASS" signature="validatePurchaseOfBusinessAndFranchise()[pri:2, instance:com.rockSolicitors.tests.ViewPriceListTest@73302995]" name="validatePurchaseOfBusinessAndFranchise" duration-ms="2203" started-at="2021-04-14T17:58:00 BST" finished-at="2021-04-14T17:58:02 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validatePurchaseOfBusinessAndFranchise -->
-        <test-method status="PASS" signature="validateConveyancingAndPropertyPage()[pri:3, instance:com.rockSolicitors.tests.ViewPriceListTest@73302995]" name="validateConveyancingAndPropertyPage" duration-ms="2079" started-at="2021-04-14T17:58:02 BST" finished-at="2021-04-14T17:58:04 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateConveyancingAndPropertyPage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rockSolicitors.tests.ViewPriceListTest@73302995]" name="tearDown" is-config="true" duration-ms="3166" started-at="2021-04-14T17:58:04 BST" finished-at="2021-04-14T17:58:07 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.rockSolicitors.tests.ViewPriceListTest -->
-    </test> <!-- RockSolicitorsE2E(Structured Test) -->
-  </suite> <!-- All Test Suite (Structured Test) -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>
