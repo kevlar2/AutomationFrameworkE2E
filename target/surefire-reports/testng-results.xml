@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-20T09:14:44 BST" name="Surefire suite" finished-at="2021-04-20T09:15:03 BST" duration-ms="19453">
+  <suite started-at="2021-06-26T01:22:22 BST" name="Surefire suite" finished-at="2021-06-26T01:22:52 BST" duration-ms="29985">
     <groups>
     </groups>
-    <test started-at="2021-04-20T09:14:44 BST" name="Surefire test" finished-at="2021-04-20T09:15:03 BST" duration-ms="19453">
+    <test started-at="2021-06-26T01:22:22 BST" name="Surefire test" finished-at="2021-06-26T01:22:52 BST" duration-ms="29985">
       <class name="com.rockSolicitors.tests.MakeAnEnquiryTest">
-        <test-method is-config="true" signature="startUp()[pri:0, instance:com.rockSolicitors.tests.MakeAnEnquiryTest@27216cd]" started-at="2021-04-20T09:14:44 BST" name="startUp" finished-at="2021-04-20T09:14:52 BST" duration-ms="8142" status="PASS">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:com.rockSolicitors.tests.MakeAnEnquiryTest@27216cd]" started-at="2021-06-26T01:22:22 BST" name="startUp" finished-at="2021-06-26T01:22:39 BST" duration-ms="16536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateMakeEnquiryForm()[pri:0, instance:com.rockSolicitors.tests.MakeAnEnquiryTest@27216cd]" started-at="2021-04-20T09:14:52 BST" name="validateMakeEnquiryForm" finished-at="2021-04-20T09:14:55 BST" duration-ms="2884" status="PASS">
+        <test-method signature="validateMakeEnquiryForm()[pri:0, instance:com.rockSolicitors.tests.MakeAnEnquiryTest@27216cd]" started-at="2021-06-26T01:22:39 BST" name="validateMakeEnquiryForm" finished-at="2021-06-26T01:22:43 BST" duration-ms="4234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateMakeEnquiryForm -->
-        <test-method signature="validateMakeEnquiryFormFields()[pri:1, instance:com.rockSolicitors.tests.MakeAnEnquiryTest@27216cd]" started-at="2021-04-20T09:14:55 BST" name="validateMakeEnquiryFormFields" finished-at="2021-04-20T09:15:02 BST" duration-ms="7389" status="PASS">
+        <test-method signature="validateMakeEnquiryFormFields()[pri:1, instance:com.rockSolicitors.tests.MakeAnEnquiryTest@27216cd]" started-at="2021-06-26T01:22:43 BST" name="validateMakeEnquiryFormFields" finished-at="2021-06-26T01:22:51 BST" duration-ms="8188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateMakeEnquiryFormFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rockSolicitors.tests.MakeAnEnquiryTest@27216cd]" started-at="2021-04-20T09:15:02 BST" name="tearDown" finished-at="2021-04-20T09:15:03 BST" duration-ms="978" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rockSolicitors.tests.MakeAnEnquiryTest@27216cd]" started-at="2021-06-26T01:22:51 BST" name="tearDown" finished-at="2021-06-26T01:22:52 BST" duration-ms="975" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

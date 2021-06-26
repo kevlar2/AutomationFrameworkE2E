@@ -1,16 +1,8 @@
-09:14:48.211 [TestNG-test=Surefire test-1] INFO  resources.base - Starting chrome browser
-09:14:48.401 [TestNG-test=Surefire test-1] INFO  com.rockSolicitors.tests.BaseTest - Driver is initialised
-09:14:52.345 [TestNG-test=Surefire test-1] INFO  com.rockSolicitors.tests.BaseTest - Navigating to http://rocksolicitors.leapweb.co.uk/
-09:14:52.375 [TestNG-test=Surefire test-1] INFO  com.rockSolicitors.tests.MakeAnEnquiryTest - Starting Make An Enquiry Test
-09:14:52.394 [TestNG-test=Surefire test-1] INFO  com.rockSolicitors.tests.MakeAnEnquiryTest - Validating Make An Enquiry form
-09:14:55.261 [TestNG-test=Surefire test-1] INFO  com.rockSolicitors.tests.MakeAnEnquiryTest - Validating Make An Enquiry form fields
-09:15:02.649 [TestNG-test=Surefire test-1] INFO  com.rockSolicitors.tests.MakeAnEnquiryTest - Make An Enquiry Test Completed successfully
-09:15:02.650 [TestNG-test=Surefire test-1] INFO  com.rockSolicitors.tests.BaseTest - Closing Browser
-09:18:00.135 [main] INFO  resources.base - Starting chrome browser
-09:18:00.310 [main] INFO  com.rockSolicitors.tests.BaseTest - Driver is initialised
-09:18:06.571 [main] INFO  com.rockSolicitors.tests.BaseTest - Navigating to http://rocksolicitors.leapweb.co.uk/
-09:18:06.596 [main] INFO  com.rockSolicitors.tests.MakeAnEnquiryTest - Starting Make An Enquiry Test
-09:18:06.608 [main] INFO  com.rockSolicitors.tests.MakeAnEnquiryTest - Validating Make An Enquiry form
-09:18:09.425 [main] INFO  com.rockSolicitors.tests.MakeAnEnquiryTest - Validating Make An Enquiry form fields
-09:18:17.182 [main] INFO  com.rockSolicitors.tests.MakeAnEnquiryTest - Make An Enquiry Test Completed successfully
-09:18:17.183 [main] INFO  com.rockSolicitors.tests.BaseTest - Closing Browser
+01:22:28.345 [TestNG-test=Surefire test-1] INFO  resources.base - Starting chrome browser
+01:22:28.535 [TestNG-test=Surefire test-1] INFO  com.rockSolicitors.tests.BaseTest - Driver is initialised
+01:22:39.192 [TestNG-test=Surefire test-1] INFO  com.rockSolicitors.tests.BaseTest - Navigating to http://rocksolicitors.leapweb.co.uk/
+01:22:39.215 [TestNG-test=Surefire test-1] INFO  com.rockSolicitors.tests.MakeAnEnquiryTest - Starting Make An Enquiry Test
+01:22:39.230 [TestNG-test=Surefire test-1] INFO  com.rockSolicitors.tests.MakeAnEnquiryTest - Validating Make An Enquiry form
+01:22:43.451 [TestNG-test=Surefire test-1] INFO  com.rockSolicitors.tests.MakeAnEnquiryTest - Validating Make An Enquiry form fields
+01:22:51.639 [TestNG-test=Surefire test-1] INFO  com.rockSolicitors.tests.MakeAnEnquiryTest - Make An Enquiry Test Completed successfully
+01:22:51.640 [TestNG-test=Surefire test-1] INFO  com.rockSolicitors.tests.BaseTest - Closing Browser
