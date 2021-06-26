@@ -62,7 +62,7 @@ public class MakeAnEnquiryTest extends BaseTest {
         Thread.sleep(2000);
         makeAnEnquiry.enterPersonDetails("James","Roghan","James.Roghan", "07825638164");
         makeAnEnquiry.jsExecutorClick("document.getElementById('gform_submit_button_7').click()"); // Clicking submit button
-        /*
+        /*Disabled test
         Assert.assertEquals(makeAnEnquiry.getEmailWarn(),"Please enter a valid email address.",
                 "Email address field actual error is different from expected");*/
 
